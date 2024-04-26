@@ -1,0 +1,25 @@
+.card {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.card img {
+  width: 200px;
+  height: 150px;
+  object-fit: contain;
+}
+
+.card svg {
+  font-size: 25px;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
